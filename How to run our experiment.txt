@@ -1,0 +1,9 @@
+﻿How to run our experiment
+Here I will be explaining how to run our codes in google colab platform
+
+
+1. At first please upload our dataset folder RicePest.v1i.yolov8 to a google drive.
+2. Inside the dataset folder you will find a data.yaml file,( if the code does not read the file path automatically then please copy the path of the train and validation image folder and paste it into the data.yaml file’s train and validation directory. )
+3. Run the code of the Yolov8(original)_and_Yolov8(optimized)_100_epochs.ipynb file step by step.
+4. For the OptimizedGrid.ipynb file it will run faster if you allocate a GPU. 
+5. Finally you can test how the model performs on new data by uploading another folder named bestweightsofar on your drive and then specifying the model path to the bestweights within the folder.
